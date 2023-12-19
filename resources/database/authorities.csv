@@ -1,0 +1,21 @@
+_id,policeId,name,email,password,post,state,district,taluka,village
+6539428fe0265e4af914c0f3,126277,Random Name0,random0@example.com,randompassword,ACP,Gujarat,Ahmedabad,all,all
+6539428fe0265e4af914c0f4,272637,Random Name1,random1@example.com,randompassword,ASI,Gujarat,all,all,all
+6539428fe0265e4af914c0f5,315142,Random Name2,random2@example.com,randompassword,Constable,Gujarat,Upleta,all,all
+6539428fe0265e4af914c0f6,263724,Random Name3,random3@example.com,randompassword,PSI,Gujarat,Kalol,all,all
+6539428fe0265e4af914c0f7,162425,Random Name4,random4@example.com,randompassword,ASI,Gujarat,Upleta,all,all
+6539428fe0265e4af914c0f8,617242,Random Name5,random5@example.com,randompassword,IPS,Gujarat,Thangadh,all,all
+6539428fe0265e4af914c0f9,721523,Random Name6,random6@example.com,randompassword,ASI,Gujarat,Wadhwan,Taluka58,all
+6539428fe0265e4af914c0fa,819271,Random Name7,random7@example.com,randompassword,Constable,Gujarat,Jamnagar,Taluka14,all
+6539428fe0265e4af914c0fb,165229,Random Name8,random8@example.com,randompassword,ACP,Gujarat,Mandvi,all,all
+6539428fe0265e4af914c0fc,172526,Random Name9,random9@example.com,randompassword,PSI,Gujarat,Viramgam,all,all
+6539428fe0265e4af914c0fd,276216,Random Name10,random10@example.com,randompassword,DCP,Gujarat,Dhoraji,all,all
+6539428fe0265e4af914c0fe,192721,Random Name11,random11@example.com,randompassword,DCP,Gujarat,Thangadh,all,all
+6539428fe0265e4af914c0ff,271524,Random Name12,random12@example.com,randompassword,ACP,Gujarat,Jamnagar,Taluka14,all
+6539428fe0265e4af914c100,382615,Random Name13,random13@example.com,randompassword,DCP,Gujarat,Veraval,Taluka52,all
+6539428fe0265e4af914c101,181624,Random Name14,random14@example.com,randompassword,IPS,Gujarat,Wankaner,all,all
+6539428fe0265e4af914c102,152411,Random Name15,random15@example.com,randompassword,IPS,Gujarat,Jetpur,all,all
+6539428fe0265e4af914c103,212331,Random Name16,random16@example.com,randompassword,Constable,Gujarat,Kalol,all,all
+6539428fe0265e4af914c104,753253,Random Name17,random17@example.com,randompassword,ACP,Gujarat,Jhalod,Taluka21,all
+6539428fe0265e4af914c105,143213,Random Name18,random18@example.com,randompassword,ACP,Gujarat,Jetpur,all,all
+6539428fe0265e4af914c106,677432,Random Name19,random19@example.com,randompassword,DCP,Gujarat,Bhavnagar,Taluka13,all

@@ -1,0 +1,222 @@
+[
+  {
+    "policeId": "126277",
+    "name": "Random Name0",
+    "email": "random0@example.com",
+    "password": "randompassword",
+    "post": "ACP",
+    "state": "Gujarat",
+    "district": "Anjar",
+    "taluka": "Taluka61",
+    "village": "all"
+  },
+  {
+    "policeId": "272637",
+    "name": "Random Name1",
+    "email": "random1@example.com",
+    "password": "randompassword",
+    "post": "ASI",
+    "state": "Gujarat",
+    "district": "Wankaner",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "315142",
+    "name": "Random Name2",
+    "email": "random2@example.com",
+    "password": "randompassword",
+    "post": "Constable",
+    "state": "Gujarat",
+    "district": "Upleta",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "263724",
+    "name": "Random Name3",
+    "email": "random3@example.com",
+    "password": "randompassword",
+    "post": "PSI",
+    "state": "Gujarat",
+    "district": "Kalol",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "162425",
+    "name": "Random Name4",
+    "email": "random4@example.com",
+    "password": "randompassword",
+    "post": "ASI",
+    "state": "Gujarat",
+    "district": "Upleta",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "617242",
+    "name": "Random Name5",
+    "email": "random5@example.com",
+    "password": "randompassword",
+    "post": "IPS",
+    "state": "Gujarat",
+    "district": "Thangadh",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "721523",
+    "name": "Random Name6",
+    "email": "random6@example.com",
+    "password": "randompassword",
+    "post": "ASI",
+    "state": "Gujarat",
+    "district": "Wadhwan",
+    "taluka": "Taluka58",
+    "village": "all"
+  },
+  {
+    "policeId": "819271",
+    "name": "Random Name7",
+    "email": "random7@example.com",
+    "password": "randompassword",
+    "post": "Constable",
+    "state": "Gujarat",
+    "district": "Jamnagar",
+    "taluka": "Taluka14",
+    "village": "all"
+  },
+  {
+    "policeId": "165229",
+    "name": "Random Name8",
+    "email": "random8@example.com",
+    "password": "randompassword",
+    "post": "ACP",
+    "state": "Gujarat",
+    "district": "Mandvi",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "172526",
+    "name": "Random Name9",
+    "email": "random9@example.com",
+    "password": "randompassword",
+    "post": "PSI",
+    "state": "Gujarat",
+    "district": "Viramgam",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "276216",
+    "name": "Random Name10",
+    "email": "random10@example.com",
+    "password": "randompassword",
+    "post": "DCP",
+    "state": "Gujarat",
+    "district": "Dhoraji",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "192721",
+    "name": "Random Name11",
+    "email": "random11@example.com",
+    "password": "randompassword",
+    "post": "DCP",
+    "state": "Gujarat",
+    "district": "Thangadh",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "271524",
+    "name": "Random Name12",
+    "email": "random12@example.com",
+    "password": "randompassword",
+    "post": "ACP",
+    "state": "Gujarat",
+    "district": "Jamnagar",
+    "taluka": "Taluka14",
+    "village": "all"
+  },
+  {
+    "policeId": "382615",
+    "name": "Random Name13",
+    "email": "random13@example.com",
+    "password": "randompassword",
+    "post": "DCP",
+    "state": "Gujarat",
+    "district": "Veraval",
+    "taluka": "Taluka52",
+    "village": "all"
+  },
+  {
+    "policeId": "181624",
+    "name": "Random Name14",
+    "email": "random14@example.com",
+    "password": "randompassword",
+    "post": "IPS",
+    "state": "Gujarat",
+    "district": "Wankaner",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "152411",
+    "name": "Random Name15",
+    "email": "random15@example.com",
+    "password": "randompassword",
+    "post": "IPS",
+    "state": "Gujarat",
+    "district": "Jetpur",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "212331",
+    "name": "Random Name16",
+    "email": "random16@example.com",
+    "password": "randompassword",
+    "post": "Constable",
+    "state": "Gujarat",
+    "district": "Kalol",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "753253",
+    "name": "Random Name17",
+    "email": "random17@example.com",
+    "password": "randompassword",
+    "post": "ACP",
+    "state": "Gujarat",
+    "district": "Jhalod",
+    "taluka": "Taluka21",
+    "village": "all"
+  },
+  {
+    "policeId": "143213",
+    "name": "Random Name18",
+    "email": "random18@example.com",
+    "password": "randompassword",
+    "post": "ACP",
+    "state": "Gujarat",
+    "district": "Jetpur",
+    "taluka": "all",
+    "village": "all"
+  },
+  {
+    "policeId": "677432",
+    "name": "Random Name19",
+    "email": "random19@example.com",
+    "password": "randompassword",
+    "post": "DCP",
+    "state": "Gujarat",
+    "district": "Bhavnagar",
+    "taluka": "Taluka13",
+    "village": "all"
+  }
+]
