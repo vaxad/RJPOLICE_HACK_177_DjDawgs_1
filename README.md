@@ -33,6 +33,12 @@ Rakshakrita operates on a simple yet effective process:
 5. Users can view the performance of their nearby police stations.
 6. Live heatmaps showing distribution of negative feedbacks is also available.
 
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/22bf0e27-92a5-4858-8177-4025d9e63e1a)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/5a382984-0e79-415d-8cbf-2cea42ba5fe8)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/9407d98d-ed84-4bc4-ad39-eef0880fa105)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/34e45703-3b94-4a60-919c-5d139ab4f50b)
+
+
 ## Mobile App
 
 1. Authentication for higher police authorities.
