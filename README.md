@@ -52,16 +52,22 @@ Rakshakrita operates on a simple yet effective process:
 2. Sentiment Analysis model to detect whether a feedback is negative or positive.
 3. Zero shot classification to identify the issues in negative feedbacks.
 
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/109005b2-59ea-44b5-8b5b-0d653c12b72c)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/42060628-97f7-44b0-81ab-62992b59ba05)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/306d4f6a-66b0-420a-8185-cc3eee9f25a5)
+
+
 ## Other Features
 
-1. Heatmaps are generated on the real-time data of feedbacks and then displayed on the website using live maps.
-2. Automated pdf generation (analysis, graphs and charts on all the feedbacks) and mailing to all the authorities
+1. [Heatmap data](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/database/heatmaps.csv) is generated of the real-time data of feedbacks and then displayed on the website using live maps.
+3. Automated [PDF](https://drive.google.com/file/d/1GgCHycRBoMvR2AxwcVsjAfsHjEUwC4QV/view?usp=drive_link) generation (analysis, graphs and charts on all the feedbacks) and mailing to all the authorities.
+
 
 ## Database
 
-1. Scraped 2.7k police stations (name, latitude, longitude, district) of Rajasthan.
-2. Generated qr code for each of the police stations.
-3. Generated 25k sample feedbacks in order to test heatmaps, report generation, analysis and other features.
+1. Scraped [2.7k police stations](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/database/stations.csv) (name, latitude, longitude, district) of Rajasthan.
+2. Generated [qr code](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/tree/main/resources/database/qrcodes) for each of the police stations and stored [on cloud](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/qrcodes.txt).
+3. Generated [25k sample feedbacks](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/database/feedbacks.csv) in order to test heatmaps, report generation, analysis and other features.
 
 ## Additional Information
 
