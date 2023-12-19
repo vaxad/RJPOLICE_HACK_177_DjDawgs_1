@@ -121,7 +121,7 @@ export default function Stations() {
       const heatmapres = (await axios.get("/api/heatmap")).data
       setheatmap(heatmapres.heatmapData)
       console.log(heatmapres.heatmapData)
-      const resp2 = (await axios.post("http://localhost:5000/heatmap/")).data
+      const resp2 = (await axios.post("https://rakshakrita-v2.onrender.com/heatmap/")).data
       console.log(resp2)
       // setheatmap(JSON.parse(resp2.heatmapData))
       const arr =[]

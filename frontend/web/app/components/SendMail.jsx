@@ -10,9 +10,9 @@ export default function SendMail() {
             const sendRes = await axios.put("/api/mail")
             if (sendRes.data.send) {
                 console.log("Mail sending")
-                const htmlData = (await axios.post("https://rakshakrita-api-v2.onrender.com/mail")).data
+                const htmlData = (await axios.post("https://rakshakrita-v2.onrender.com/mail")).data    //to generate html from feedback analysis
                 const html = htmlData.html.join(" ")
-                const resp = (await fetch("https://rakshakrita-api.onrender.com/mail", { 
+                const resp = (await fetch("https://rakshakrita-v1.onrender.com/mail", {         // to generate pdf and send mail
                     method: 'POST', 
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ html: html })

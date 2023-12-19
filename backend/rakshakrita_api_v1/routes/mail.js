@@ -1,17 +1,10 @@
-
 import express from "express"
-// import {PythonShell} from 'python-shell';
 import puppeteer from 'puppeteer';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
 
 dotenv.config();
 const router = express.Router();
-
-// const runModel = async (file,options)=>{
-//     const response = await PythonShell.run(file,options);
-//     return response;
-// }
 
 async function sendMail(recipientEmail, pdfBase64) {
   console.log(recipientEmail)
@@ -81,15 +74,6 @@ async function htmlToPdf(htmlString) {
 
 router.post('/', async (req, res) => {
     try {
-        // const response = await runModel('routes/pyfile/main.py',{})
-        
-        // const outputPath = 'output.pdf';
-        // const htmlString = response.join(' ')
-        // await sendMail("varadprabhu111@gmail.com", response[0])
-//         htmlToPdf(htmlString)
-//   .then(() => console.log('PDF generated successfully'))
-//   .catch(error => {console.error('Error generating PDF:', error);  res.json({success: false});})
-    // console.log(response)
         htmlToPdf(req.body.html)
         res.json({success: true})
     } catch (error) {

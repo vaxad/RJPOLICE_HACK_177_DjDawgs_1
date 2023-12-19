@@ -5,7 +5,7 @@ import translate from './routes/translate.js';
 import issue from "./routes/issue.js"
 import heatmap from "./routes/heatmap.js"
 import feedback from "./routes/feedback.js"
-
+import mail from "./routes/mail.js"
 import bodyParser from 'body-parser';
 const app = express();
 app.use(express.json());
@@ -32,6 +32,7 @@ app.use("/translate", translate);
 app.use("/issue", issue);
 app.use("/heatmap", heatmap);
 app.use("/feedback", feedback);
+app.use("/mail", mail);
 
 
 const port = process.env.PORT || 4001;

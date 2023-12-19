@@ -1,0 +1,7 @@
+/backend/rakshakrita_api_v1/node_modules
+/backend/rakshakrita_api_v2/node_modules
+/backend/rakshakrita_api_v1/.env.local
+/backend/rakshakrita_api_v2/.env.local
+/frontend/web/node_modules
+/frontend/web/.env.local
+/frontend/web/.next
