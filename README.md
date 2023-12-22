@@ -46,11 +46,9 @@ Rakshakrita operates on a simple yet effective process:
 3. Display of various graphs and charts representing analysis of feedbacks for each police station.
 4. Provision for editing the customizable form questions.
 
-![Screenshot_20231220-002215](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/97ba42da-1a21-42bd-914b-414d759ec99a)
-![Screenshot_20231220-002250](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/74d073ca-9322-4237-afc4-ccf3b45a1b7a)
-![Screenshot_20231220-002259](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/76fb188d-390a-4b80-b9ff-202daf389164)
-![Screenshot_20231220-002311](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/dcb7e5f4-8735-4aa1-8f31-d43cad894d4c)
-![Screenshot_20231220-002235](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/cf209b4d-81bb-42c7-a2bd-b5e49bb80e76)
+![Untitled design (22)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/c0644243-de98-42cf-89e8-36acace60145)
+![Untitled design (23)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/c9ed19e0-ff84-448b-9b27-4fbae7fbd89a)
+
 
 ## ML Models
 
