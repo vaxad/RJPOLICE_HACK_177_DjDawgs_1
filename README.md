@@ -63,7 +63,7 @@ Rakshakrita operates on a simple yet effective process:
 
 ## Other Features
 
-1. [Heatmap data](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/database/heatmaps.csv) is generated of the real-time data of feedbacks and then displayed on the website using live maps.
+1. [Heatmap data](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/database/heatmaps.csv) is generated of the real-time data of feedbacks and then displayed on the website using [live maps](https://drive.google.com/file/d/1FfzolH5WF_G81cw2efhyw9GvcaYdgSE1/view?usp=drive_link).
 3. Automated [PDF](https://drive.google.com/file/d/1GgCHycRBoMvR2AxwcVsjAfsHjEUwC4QV/view?usp=drive_link) generation (analysis, graphs and charts on all the feedbacks) and mailing to all the authorities.
 
 
