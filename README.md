@@ -52,7 +52,7 @@
 
 ## ML Models
 
-1.**Translation model** to translate any language into any other language (Hindi:'hi', English:'en', Gujarati:'gu' and so on).
+1. **Translation model** to translate any language into any other language (Hindi:'hi', English:'en', Gujarati:'gu' and so on).
 2. **Sentiment Analysis model** to detect whether feedback is negative or positive.
 3. **Zero-Shot Classification** to identify the issues in negative feedbacks.
 
