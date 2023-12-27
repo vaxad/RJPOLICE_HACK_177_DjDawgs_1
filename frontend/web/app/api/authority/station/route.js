@@ -21,7 +21,7 @@ export async function GET(req){
         if(obj){
         const body = await Authorities.findById(obj.authorityId)
         console.log(body)
-        let stations = await Stations.find({district:body.district==='all'?{$exists:true}:body.district})
+        let stations = await Stations.find()
         
         return NextResponse.json({stations:stations, success:true})
         }
