@@ -1,19 +1,18 @@
 import express from "express"
 import puppeteer from 'puppeteer';
 import nodemailer from 'nodemailer';
-import dotenv from 'dotenv';
-
-dotenv.config();
 const router = express.Router();
 
+
 async function sendMail(recipientEmail, pdfBase64) {
+  const password = process.env.EMAIL_PASSWORD;
+  const email = process.env.EMAIL_URL;
   console.log(recipientEmail)
-  const password = 'ibxj pois evfq muzf';
   // Create a Nodemailer transporter using your email service's credentials
   const transporter = nodemailer.createTransport({
     service: 'gmail', // e.g., 'gmail', 'yahoo', etc.
     auth: {
-      user: 'testvaxad@gmail.com',
+      user: email,
       pass: password,
     },
   });

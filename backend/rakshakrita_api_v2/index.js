@@ -7,6 +7,10 @@ import heatmap from "./routes/heatmap.js"
 import feedback from "./routes/feedback.js"
 import mail from "./routes/mail.js"
 import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
+dotenv.config({
+    path: './.env.local'
+});
 const app = express();
 app.use(express.json());
 

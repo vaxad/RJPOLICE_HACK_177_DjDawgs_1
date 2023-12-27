@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.post('/', async (req, res) => {
     const { text, from, to } = req.body
-    const TRANSLATION_API='https://siddhantuniyal-rakshak-rit-translation.hf.space/--replicas/8fzlk/'
+    const TRANSLATION_API=process.env.TRANSLATION_API
     try {
         const app = await client(TRANSLATION_API);
         const result = await app.predict("/predict", [

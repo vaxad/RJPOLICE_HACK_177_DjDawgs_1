@@ -96,8 +96,8 @@ export default function Stations() {
             // //.log(position)
             setLatitude(position.coords.latitude);
             setLongitude(position.coords.longitude);
-            setLatitude(26.09134);
-            setLongitude(74.52432);
+            // setLatitude(26.09134);
+            // setLongitude(74.52432);
             // return ({ latitude: position.coords.latitude, longitude: position.coords.longitude })
           },
           (err) => {

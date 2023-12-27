@@ -8,9 +8,9 @@ router.post('/', async (req, res) => {
     const { description, stationId, id, attachment, from } = req.body
     console.log(req.body)
     
-    const TRANSLATION_API='https://siddhantuniyal-rakshak-rit-translation.hf.space/--replicas/8fzlk/'
-    const TYPE_API='https://shubhamjaiswar-rakshakrit.hf.space/--replicas/56uen/'
-    const ISSUE_API='https://siddhantuniyal-rakshak-rit-zero-shot.hf.space/--replicas/siyjo/'
+    const TRANSLATION_API=process.env.TRANSLATION_API
+    const TYPE_API=process.env.TYPE_API
+    const ISSUE_API=process.env.ISSUE_API
     try {
         let translatedDesc;
         if (from === "hi" || from === "gu") {
