@@ -54,9 +54,11 @@ export default function Page({ params: { id } }) {
       if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(
           (position) => {
-            
+            //26.949792 75.712954
             setLatitude(position.coords.latitude);
             setLongitude(position.coords.longitude);
+            // setLatitude(26.09134);
+            // setLongitude(74.52432);
             
           },
           (err) => {

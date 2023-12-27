@@ -55,6 +55,8 @@ export async function GET(req,res) {
                 desiredOrder.forEach(key => {
                   if (feedback[key] !== undefined) {
                     sortedDoc[key] = feedback[key];
+                  }else{
+                    sortedDoc[key] = "none"
                   }
                 });
                 return sortedDoc;

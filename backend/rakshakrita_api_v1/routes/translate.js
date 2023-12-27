@@ -4,8 +4,9 @@ const router = express.Router();
 
 router.post('/', async(req, res) => {
     const {text, from, to} = req.body
+    const url = process.env.TRANSLATION_API;
     try {
-        const app = await client("https://siddhantuniyal-rakshak-rit-translation.hf.space/--replicas/n3mu8/");
+        const app = await client(url);
 const result = await app.predict("/predict", [		
 				text, // string  in 'input_text' Textbox component		
 				from, // string  in 'source_lang' Textbox component		

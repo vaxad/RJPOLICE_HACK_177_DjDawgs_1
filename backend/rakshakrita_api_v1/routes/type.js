@@ -4,8 +4,9 @@ const router = express.Router();
 
 router.post('/', async(req, res) => {
     const {text} = req.body
+    const url = process.env.TYPE_API;
     try {
-        const app = await client("https://shubhamjaiswar-rakshakrit.hf.space/--replicas/wzvlk/");
+        const app = await client(url);
             const result = await app.predict("/predict", [
                 text, // string  in 'sentiment_text' Textbox component
             ]);

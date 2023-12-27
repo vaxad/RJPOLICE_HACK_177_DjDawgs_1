@@ -8,7 +8,7 @@ const router = express.Router();
 
 async function sendMail(recipientEmail, pdfBase64) {
   console.log(recipientEmail)
-  const password = process.env.PASSWORD;
+  const password = 'ibxj pois evfq muzf';
   // Create a Nodemailer transporter using your email service's credentials
   const transporter = nodemailer.createTransport({
     service: 'gmail', // e.g., 'gmail', 'yahoo', etc.
