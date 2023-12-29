@@ -24,9 +24,9 @@
 
 6. **Additional Features**:
     - Feedback Reports: Users can view reports highlighting the public opinion on different police stations.
-    - Live Heatmaps: Visual representation of the intensity of negative feedback for various localities.
+    - [Live Heatmaps](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/impCodes/heatmapData.py): Visual representation of the intensity of negative feedback for various localities.
 
-7. **Periodic Reports to Higher Authorities**: Regular reports are sent to higher authorities, providing detailed insights into police stations under their jurisdictions. This aids in identifying and addressing potential issues promptly.
+7. **Periodic Reports to Higher Authorities**: Regular reports are sent to higher authorities via the mobile app and [mail](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/blob/main/resources/impCodes/pdfMailing.js), providing detailed insights into police stations under their jurisdictions. This aids in identifying and addressing potential issues promptly.
 
 ## Website
 
