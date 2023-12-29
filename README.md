@@ -83,7 +83,9 @@
 
 2. **AI Chatbot Integration**: A feature-rich AI chatbot is in the planning stage for integration into the platform. This addition aims to provide users with an interactive and intelligent interface, offering assistance and guidance as they navigate the feedback process.
 
-3. **Additional Features**: Ongoing discussions and planning are in progress for the incorporation of additional features to elevate further the functionality and usability of both the website and mobile application. The specifics of these features will be defined as the development roadmap evolves.
+3. **Website UI/UX Redesigning**: We are planning to implement the design system suggested by [UX4G](https://www.ux4g.gov.in/) - a Digital India initiative, to enhance the user’s experience.
+
+4. **Additional Features**: Ongoing discussions and planning are in progress for the incorporation of additional features to elevate further the functionality and usability of both the website and mobile application. The specifics of these features will be defined as the development roadmap evolves.
 
 ## Additional Information
 
