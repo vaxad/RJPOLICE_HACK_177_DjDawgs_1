@@ -47,7 +47,7 @@
 
 1. **Authentication** for higher police authorities.
 2. Displaying of **actual feedbacks** for all police stations.
-3. Display of various graphs and charts representing **analysis of feedbacks** for each police station.
+3. Display various graphs and charts representing **analysis of feedbacks** for each police station.
 4. Provision for editing the **customizable form** questions.
 
 ![Untitled design (22)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/c0644243-de98-42cf-89e8-36acace60145)
@@ -56,9 +56,9 @@
 
 ## ML Models
 
-1. **Translation model** to translate any language into any other language (Hindi:'hi', English:'en', Gujarati:'gu' and so on).
-2. **Sentiment Analysis model** to detect whether feedback is negative or positive.
-3. **Zero-Shot Classification** to identify the issues in negative feedbacks.
+1. **[Translation model](https://siddhantuniyal-rakshak-rit-translation.hf.space/--replicas/8fzlk/)** to translate any language into any other language (Hindi:'hi', English:'en', Gujarati:'gu' and so on).
+2. **[Sentiment Analysis model](https://shubhamjaiswar-rakshakrit.hf.space/--replicas/56uen/)** to detect whether feedback is negative or positive.
+3. **[Zero-Shot Classification](https://siddhantuniyal-rakshak-rit-zero-shot.hf.space/--replicas/siyjo/)** to identify the issues in negative feedbacks.
 
 ![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/109005b2-59ea-44b5-8b5b-0d653c12b72c)
 ![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/42060628-97f7-44b0-81ab-62992b59ba05)
@@ -83,7 +83,7 @@
 
 2. **AI Chatbot Integration**: A feature-rich AI chatbot is in the planning stage for integration into the platform. This addition aims to provide users with an interactive and intelligent interface, offering assistance and guidance as they navigate the feedback process.
 
-3. **Additional Features**: Ongoing discussions and planning are in progress for the incorporation of additional features to further elevate the functionality and usability of both the website and mobile application. The specifics of these features will be defined as the development roadmap evolves.
+3. **Additional Features**: Ongoing discussions and planning are in progress for the incorporation of additional features to elevate further the functionality and usability of both the website and mobile application. The specifics of these features will be defined as the development roadmap evolves.
 
 ## Additional Information
 
