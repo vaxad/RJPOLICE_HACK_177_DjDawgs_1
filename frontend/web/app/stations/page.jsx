@@ -1,6 +1,5 @@
 "use client"
 import axios from "axios";
-import Link from "next/link";
 import { useEffect, useState } from "react";
 import StationCard from "./components/StationCard";
 import Loading from "../components/Loading";
@@ -248,13 +247,9 @@ export default function Stations() {
   }
 
   const [searchTerm, setSearchTerm] = useState("")
-
-
-
   return (
     <main className="flex flex-col w-full home min-h-[100vh] overflow-y-scroll">
       <Navbar />
-
       <div className="area z-0" >
         <ul className="circles">
           <li></li>
@@ -278,16 +273,6 @@ export default function Stations() {
             const filteredStations = temp.filter((el) => el.name.toLowerCase().includes(e.target.value.toLowerCase()))
             setshowstations(filteredStations)
           }}  className=" outline-none w-full py-3 px-6 border border-slate-400 rounded-2xl" placeholder="Search a Police Station..."></input>
-          {/* <form className=" flex flex-col justify-start max-w-fit h-full">
-            <label>Filter by</label>
-            <select className=" outline-none">
-              <option className=" text-slate-300">Filter</option>
-              <option>District</option>
-              <option>Taluka</option>
-              <option>City</option>
-              <option>Town</option>
-            </select>
-          </form> */}
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:px-24 md:px-24 px-4 pb-16 gap-6 w-full">
         { <div id="map" className={` ${heatmap.length>0&&stations.length>0?" ":" hidden"} z-10 col-span-3 rounded-xl my-8`} style={{ height: "40vh" }}></div>}
