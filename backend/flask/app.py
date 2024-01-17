@@ -4,7 +4,7 @@ from gradio_client import Client
 app = Flask(__name__)
 
 def model(desc):
-    client = Client("https://tirath5504-geminisentiment.hf.space/--replicas/7f6gh/")
+    client = Client("https://tirath5504-geminisentiment.hf.space/--replicas/jymug/")
     result = client.predict(
             desc,	# str  in 'input_text' Textbox component
             api_name="/predict"
