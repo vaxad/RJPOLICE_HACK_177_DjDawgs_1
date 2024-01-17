@@ -24,6 +24,7 @@ def gradio():
         data = request.get_json()
         desc = data['desc']
         ques = data['ques']
+        print(data)
         result = model(desc=desc, ques=ques)
         response = {'result': result[0], 'issue':result[1], 'department':result[2]}
         return jsonify(response)

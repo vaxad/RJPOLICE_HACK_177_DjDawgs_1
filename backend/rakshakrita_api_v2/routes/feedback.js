@@ -35,19 +35,23 @@ await connect()
 // });
 //https://rakshakrita-flaskv2.onrender.com/model
 router.post('/', async (req, res) => {
-    const { description, stationId, id, attachment, from } = req.body
+    const { description, questionaire, stationId, id, attachment, from } = req.body
     console.log(req.body)
     try {
-        const flaskapi = await axios.post("https://rakshakrita-flaskv2.onrender.com/model",{desc:description})
-        const result = flaskapi.data
-        console.log(result)
-        const type = (result.result===42||result.result===0) ? "Spam":(result.result>0)? "Positive Feedback" :  "Negative Feedback"
-        const issue = result.issue
-        const score = Math.abs(parseFloat(result.result))
-        const department = result.department
-        const feedback = await Feedback.create({ description, issue, attachment, id, stationId, score, type, createdAt: Date.now(), department })
-        console.log(feedback);
-        res.json({ success: true, feedback: feedback })
+        if (!description || !questionaire) {
+            const flaskapi = await axios.post("https://rakshakrita-flaskv2.onrender.com/model", { desc: description ? description : "No description provided", ques: questionaire ? questionaire : "" })
+            const result = flaskapi.data
+            console.log(result)
+            const type = (result.result === 42 || result.result === 0) ? "Spam" : (result.result > 0) ? "Positive Feedback" : "Negative Feedback"
+            const issue = result.issue
+            const score = Math.abs(parseFloat(result.result))
+            const department = result.department
+            const feedback = await Feedback.create({ description, issue, attachment, id, stationId, score, type, createdAt: Date.now(), department })
+            console.log(feedback);
+            res.json({ success: true, feedback: feedback })
+        } else {
+            res.json({ success: false, error: "No description or questionnaire provided" })
+        }
     } catch (error) {
         console.log(error)
         res.json({
