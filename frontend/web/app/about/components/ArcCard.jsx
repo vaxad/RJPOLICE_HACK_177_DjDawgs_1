@@ -24,7 +24,7 @@ export const ArcCard = ({ name, title, url, college, img }) => {
                     ev.currentTarget.style.setProperty("--x", `${xPercentage * 100}%`);
                     ev.currentTarget.style.setProperty("--y", `${yPercentage * 100}%`);
                 }}
-                className="group relative flex flex-col gap-2 flex-grow w-full  rounded-md bg-[#FFFEEC] p-4 text-[#3e77b6] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.06)]"
+                className="group relative flex flex-col gap-2 flex-grow w-full  rounded-md bg-[#FFFEEC] p-4 text-[#F86F03] transition-transform ease-out hover:[transform:rotateX(var(--x-rotation))_rotateY(var(--y-rotation))_scale(1.06)]"
             >
                 {/* <figure className="rounded-md mix-blend-multiply [background-image:radial-gradient(at_70%_40%,transparent_30%,currentColor_80%),url(/noise.svg)]" /> */}
                 <div className=' w-full h-full'><img className='[perspective:1000px] hover:shadow-xl shadow-slate-700 transition-all  w-full rounded-md mix-blend-multiply object-fill aspect-square' src={img}></img></div>
@@ -35,7 +35,7 @@ export const ArcCard = ({ name, title, url, college, img }) => {
                 <footer className="flex items-end">
                     <p className="flex rounded-sm border border-current px-1 py-px text-[9px] uppercase">
                         <a href={url} target='_blank'>
-                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/60/3e77b6/new-post.png" alt=""/>
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/60/F86F03/new-post.png" alt=""/>
                     </a>
                         <p className="-my-px mx-1 inline-block w-4 border-l border-r border-current bg-[repeating-linear-gradient(-45deg,currentColor,currentColor_1px,transparent_1px,transparent_2px)]" />
                         

@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const authoritySchema = new mongoose.Schema({
   policeId: String,
   name:String,
+  role:String,
   email: String,
   password: String,
   post:String,
@@ -13,4 +14,4 @@ const authoritySchema = new mongoose.Schema({
   // Define other fields here
 });
 
-export default mongoose.models.Authority || mongoose.model('Authority', authoritySchema);
+export default mongoose.models.testAuthority || mongoose.model('testAuthority', authoritySchema);

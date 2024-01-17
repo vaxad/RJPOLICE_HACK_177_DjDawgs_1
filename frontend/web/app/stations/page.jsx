@@ -96,8 +96,8 @@ export default function Stations() {
             // //.log(position)
             setLatitude(position.coords.latitude);
             setLongitude(position.coords.longitude);
-            // setLatitude(26.09134);
-            // setLongitude(74.52432);
+            setLatitude(26.09134);
+            setLongitude(74.52432);
             // return ({ latitude: position.coords.latitude, longitude: position.coords.longitude })
           },
           (err) => {
@@ -255,7 +255,21 @@ export default function Stations() {
     <main className="flex flex-col w-full home min-h-[100vh] overflow-y-scroll">
       <Navbar />
 
-      <div className=" flex flex-col w-full ">
+      <div className="area z-0" >
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div >
+      <div className=" flex flex-col w-full z-10">
 
         <div className="filter flex flex-row flex-nowrap text-black w-full my-6 px-12 gap-5">
           <input type="text" value={searchTerm} onChange={(e)=>{

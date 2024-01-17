@@ -3,14 +3,17 @@ import Authorities from "../../../lib/db/models/Authorities"
 import { NextResponse } from "next/server"
 import jwt from "jsonwebtoken"
 import { headers } from "next/headers";
+import mongoose from "mongoose";
 
 export async function POST(req){
     try {
         const db = await connect()
         const bodyObject = await req.json()
-        const oldAuthority = await Authorities.find({policeId:bodyObject.policeId})
-        if(!oldAuthority){
-        const authority = await Authorities.create({name:bodyObject.name, email:bodyObject.email, password:bodyObject.password, post:bodyObject.post, state:bodyObject.state, district:bodyObject.district, taluka:bodyObject.taluka, village: bodyObject.village})
+        console.log(bodyObject.policeId)
+        const oldAuthority = await Authorities.find({policeId: bodyObject.policeId})
+        console.log(oldAuthority)
+        if(oldAuthority.length===0){
+        const authority = await Authorities.create({name:bodyObject.name, policeId:bodyObject.policeId, email:bodyObject.email, role:bodyObject.role, password:bodyObject.password, post:bodyObject.post, state:bodyObject.state, district:bodyObject.district, taluka:bodyObject.taluka, village: bodyObject.village})
         return NextResponse.json({authority:authority})
         }else{
             return NextResponse.json({message:"authority already exists"})

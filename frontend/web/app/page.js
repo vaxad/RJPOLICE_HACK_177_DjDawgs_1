@@ -27,7 +27,7 @@ export default function Home() {
             <div className=" flex flex-col justify-center items-center lg:px-12 px-3 lg:py-12 py-2 border-2 border-[#454545] rounded-2xl">
               <Blob2 />
               <div className="content">
-                <div className="content__container lg:text-6xl text-3xl md:text-6xl flex-wrap font-extrabold z-20 text-[#262c69]">
+                <div className="content__container lg:text-6xl text-3xl md:text-6xl flex-wrap font-extrabold z-20 text-[#FFFFFF]">
                   <p id="rakshak" className="content__container__text">
                     We
                   </p>
@@ -40,12 +40,12 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-              <div className="flex flex-col py-2 subtitle lg:text-2xl text-xl text-[#262c69]">
+              <div className="flex flex-col py-2 subtitle lg:text-2xl text-xl text-[#FFFFFF]">
 
                 <p>Help us make your community safer.</p>
                 <p>Share your feedback with your local police station.</p>
               </div>
-              <Link href={"/complain"} className=" px-5 py-2 rounded-full bg-[#F86F03] bg-opacity-50 hover:bg-opacity-100 lg:text-4xl text-[#E1EEDD] text-2xl hover:text-[#262c69] hover:scale-105 font-bold transition-all">GET STARTED</Link>
+              <Link href={"/complain"} className=" px-5 my-2 py-2 rounded-full bg-[#F86F03] lg:text-2xl text-[#FFFFFF] text-xl  hover:scale-105 font-bold transition-all">GIVE FEEDBACK</Link>
             </div>
           </div>
 

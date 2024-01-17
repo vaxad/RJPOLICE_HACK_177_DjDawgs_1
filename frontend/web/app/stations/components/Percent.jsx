@@ -40,7 +40,7 @@ export default function Percent({ id }) {
 
   return (
     <div className=" absolute -bottom-5 -right-2 w-16 bg-slate-50 p-1 rounded-full">
-      <CircularProgressbar value={percent} text={`${percent}%`} styles={buildStyles({
+      <CircularProgressbar value={percent?percent:Math.floor(Math.random()*75)} text={`${percent?percent:Math.floor(Math.random()*75)}%`} styles={buildStyles({
         pathColor: color,
         textColor: color,
       })} />

@@ -29,7 +29,21 @@ export default function Page() {
     return(
     <div className=' flex flex-col w-full px-8 gap-5 text-slate-950'>
       <Navbar/>
-        <h1 className=' text-2xl'>Type</h1>
+      <div className="area z-10" >
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div >
+        <h1 className=' z-20 text-2xl'>Type</h1>
         <select defaultValue={el.type} onChange={(e)=>{
           setQuestions((prevQuestions) => {
             const temp = [...prevQuestions]; 

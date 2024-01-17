@@ -8,8 +8,9 @@ const formSchema = new mongoose.Schema({
     options: [String],
   }],
   authorityId: String,
+  stationId: String,
   createdAt: { type: Date, default: Date.now }
   // Define other fields here
 });
 
-export default mongoose.models.Form || mongoose.model('Form', formSchema);
+export default mongoose.models.testForm || mongoose.model('testForm', formSchema);

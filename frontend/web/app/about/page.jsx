@@ -19,7 +19,7 @@ export default function Page() {
     },
     {
       name: "Siddhant Uniyal",
-      title: "ML Subordinate & Subordinate Orator",
+      title: "ML Subordinate & Orator",
       url: "https://www.linkedin.com/in/siddhant-uniyal-019767228/",
       college: "DJSCE COMPS",
       img: "/siddhant.jpg"
@@ -78,7 +78,7 @@ export default function Page() {
         </ul>
       </div >
     <h1 className=' py-12 text-6xl font-bold w-full flex justify-center items-center text-center'>
-    <svg id='hiwHeading'  className=' w-[80vw] md:w-[60vw] lg:w-[30vw] fill-transparent border-slate-100' viewBox="0 0 742 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg id='hiwHeading'  className=' w-[80vw] md:w-[60vw] lg:w-[30vw] fill-[#F86F03] border-slate-100' viewBox="0 0 742 118" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M633.888 3.93176H631.388V6.43176V111.159V113.659H633.888H645.751H648.251V111.159V41.7547L677.189 112.11L677.826 113.659H679.501H690.956H692.631L693.268 112.11L722.206 41.7547V111.159V113.659H724.706H736.57H739.07V111.159V6.43176V3.93176H736.57H721.433H719.755L719.12 5.48454L685.229 88.2641L651.338 5.48454L650.702 3.93176H649.024H633.888Z" stroke="#3e77b6" stroke-width="5"/>
 <path d="M540.871 113.659H542.636L543.227 111.995L553.165 83.9999H591.986L601.924 111.995L602.514 113.659H604.28H617.575H621.156L619.922 110.297L581.467 5.57005L580.866 3.93176H579.121H566.03H564.284L563.683 5.57005L525.228 110.297L523.994 113.659H527.575H540.871ZM572.575 29.3206L586.217 67.75H558.933L572.575 29.3206Z" stroke="#3e77b6" stroke-width="5"/>
 <path d="M448.013 111.159V113.659H450.513H514.535H517.035V111.159V99.909V97.409H514.535H465.695V66.8181H510.445H512.945V64.3181V53.0681V50.5681H510.445H465.695V20.1818H513.717H516.217V17.6818V6.43176V3.93176H513.717H450.513H448.013V6.43176V111.159Z" stroke="#3e77b6" stroke-width="5"/>

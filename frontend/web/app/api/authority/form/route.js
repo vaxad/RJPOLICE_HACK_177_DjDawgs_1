@@ -12,13 +12,20 @@ export async function POST(req){
         const obj = jwt.verify(token,process.env.JWT_SECRET)
         const db = await connect()
         const bodyObject = await req.json()
-
-        console.log(bodyObject.fields[0])
-        const oldAuthority = await Authorities.find({policeId:obj.authorityId})
-        if(!oldAuthority){
+        const oldAuthority = await Authorities.findById(obj.authorityId)
+        console.log(oldAuthority)
+        if(!oldAuthority || !(oldAuthority.role==="admin"||oldAuthority.role==="superadmin")){
         return NextResponse.json({message:"access denied"})
         }else{
-            const form =await Forms.create({fields:bodyObject.fields, authorityId:obj.authorityId})
+            const oldForm = await Forms.findOne({stationId:bodyObject.stationId})
+            if(oldForm){
+                oldForm.fields = bodyObject.fields
+                oldForm.authorityId = obj.authorityId
+                oldForm.createdAt = Date.now()
+                const updatedForm = await oldForm.save()
+                return NextResponse.json({form:updatedForm, success:true})
+            }
+            const form =await Forms.create({fields:bodyObject.fields, authorityId:obj.authorityId, stationId:bodyObject.stationId, createdAt:Date.now()})
             return NextResponse.json({form:form, success:true})
         }
     } catch (error) {
@@ -31,14 +38,11 @@ export async function PUT(req){
     try {
         const db = await connect()
         const bodyObject = await req.json()
-        const authority = await Authorities.findOne({policeId:bodyObject.policeId})
-        if(authority){
-        if(authority.email===bodyObject.email&&authority.password===bodyObject.password){
-            const authToken = jwt.sign({authorityId: authority._id},process.env.JWT_SECRET)
-            return NextResponse.json({authToken:authToken, success:true})
+        let oldForm = await Forms.findOne({stationId:bodyObject.stationId})
+        if(!oldForm){
+            oldForm = await Forms.findOne({stationId:"default"})
         }
-    }
-        return NextResponse.json({message:"incorrect credentials", success:false})
+            return NextResponse.json({form:oldForm, success:true})
     } catch (error) {
         console.log(error)
         return NextResponse.json({error:error})

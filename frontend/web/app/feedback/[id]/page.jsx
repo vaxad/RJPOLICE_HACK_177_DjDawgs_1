@@ -57,8 +57,8 @@ export default function Page({ params: { id } }) {
             //26.949792 75.712954
             setLatitude(position.coords.latitude);
             setLongitude(position.coords.longitude);
-            // setLatitude(26.09134);
-            // setLongitude(74.52432);
+            setLatitude(26.09134);
+            setLongitude(74.52432);
             
           },
           (err) => {
@@ -175,7 +175,7 @@ export default function Page({ params: { id } }) {
             console.log(JSON.stringify({ description: translatedDesc, attachment: response.data.url, id: savedId, stationId: station._id, from:lang}))
             
             
-            const resp = fetch("https://rakshakrita-v2.onrender.com/feedback", {
+            const resp = fetch("http://localhost:4001/feedback", {
               method: "POST",
               headers :{
                 "Content-Type": "application/json"
@@ -198,7 +198,7 @@ export default function Page({ params: { id } }) {
             }
             console.log(JSON.stringify({ description: translatedDesc, attachment: "", id: savedId, stationId: station._id, from:lang}))
             
-            const resp =  fetch("https://rakshakrita-v2.onrender.com/feedback", {
+            const resp =  fetch("http://localhost:4001/feedback", {
               method: "POST",
               headers :{
                 "Content-Type": "application/json"
@@ -302,10 +302,10 @@ const [more, setmore] = useState(false)
       {loading ? <Loading /> : <div className="formContainer py-12 w-full px-3 justify-center items-center flex flex-col">
         <div className=" darkColor w-full">
           <div className="heading">
-            <h1 className="text-[#262c69]">Submit Your Feedback</h1>
+            <h1 className="text-[#fff]">{`Submit Your Feedback for ${station?.name}`}</h1>
             <p className="lightColor">This feedback is the cornerstone upon which we build a safer, more responsive, and community-centric policing system</p>
           </div>
-          <h1 className="">{station?.name}</h1>
+          {/* <h1 className="">{station?.name}</h1> */}
         </div>
         <div className=" flex w-full justify-center items-center">
           {station?.latitude && <div id="map" className=" z-10 lg:w-2/3 w-11/12 rounded-xl my-8" style={{ height: "40vh" }}></div>}
