@@ -28,6 +28,6 @@ def gradio():
     except Exception as e:
         return jsonify({'error':e})
 
-
+# 1-->committee 2
 if __name__ == '__main__':
     app.run(debug=True)
