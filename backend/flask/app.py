@@ -23,7 +23,7 @@ def gradio():
         data = request.get_json()
         desc = data['desc']
         result = model(desc)
-        response = {'result': result[0], 'issue':result[1]}
+        response = {'result': result[0], 'issue':result[1], 'department':result[2]}
         return jsonify(response)
     except Exception as e:
         return jsonify({'error':e})
