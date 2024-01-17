@@ -7,6 +7,7 @@ const feedbackSchema = new mongoose.Schema({
   id: String,
   type: String,
   stationId: String,
+  department:String,
   createdAt: { type: Date, default: Date.now }
   // Define other fields here
 });

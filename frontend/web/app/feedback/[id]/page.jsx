@@ -175,7 +175,7 @@ export default function Page({ params: { id } }) {
             console.log(JSON.stringify({ description: translatedDesc, attachment: response.data.url, id: savedId, stationId: station._id, from:lang}))
             
             
-            const resp = fetch("http://localhost:4001/feedback", {
+            const resp = fetch("https://rakshakrita-v2.onrender.com/feedback", {
               method: "POST",
               headers :{
                 "Content-Type": "application/json"
@@ -198,7 +198,7 @@ export default function Page({ params: { id } }) {
             }
             console.log(JSON.stringify({ description: translatedDesc, attachment: "", id: savedId, stationId: station._id, from:lang}))
             
-            const resp =  fetch("http://localhost:4001/feedback", {
+            const resp =  fetch("https://rakshakrita-v2.onrender.com/feedback", {
               method: "POST",
               headers :{
                 "Content-Type": "application/json"
