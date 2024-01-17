@@ -3,10 +3,11 @@ from gradio_client import Client
 
 app = Flask(__name__)
 
-def model(desc):
-    client = Client("https://tirath5504-geminisentiment.hf.space/--replicas/jymug/")
+def model(desc,ques):
+    client = Client("https://tirath5504-geminisentiment.hf.space/--replicas/zdebr/")
     result = client.predict(
             desc,	# str  in 'input_text' Textbox component
+            ques,	# str  in 'input_text2' Textbox component
             api_name="/predict"
     )
     print(result)
@@ -22,7 +23,8 @@ def gradio():
     try:
         data = request.get_json()
         desc = data['desc']
-        result = model(desc)
+        ques = data['ques']
+        result = model(desc=desc, ques=ques)
         response = {'result': result[0], 'issue':result[1], 'department':result[2]}
         return jsonify(response)
     except Exception as e:
