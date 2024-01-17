@@ -30,7 +30,7 @@ export async function PUT(req){
         if(authority){
         if(authority.email===bodyObject.email&&authority.password===bodyObject.password){
             const authToken = jwt.sign({authorityId: authority._id},process.env.JWT_SECRET)
-            return NextResponse.json({authToken:authToken, success:true})
+            return NextResponse.json({authToken:authToken, role:authority.role, success:true})
         }
     }
         return NextResponse.json({message:"incorrect credentials", success:false})

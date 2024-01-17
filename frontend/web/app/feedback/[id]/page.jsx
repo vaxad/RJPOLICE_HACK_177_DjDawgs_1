@@ -301,8 +301,8 @@ const [more, setmore] = useState(false)
       <Navbar />
       {loading ? <Loading /> : <div className="formContainer py-12 w-full px-3 justify-center items-center flex flex-col">
         <div className=" darkColor w-full">
-          <div className="heading">
-            <h1 className="text-[#fff]">{`Submit Your Feedback for ${station?.name}`}</h1>
+          <div className=" flex flex-col gap-4 justify-center items-center w-full">
+            <h1 className="text-[#fff] text-xl md:text-3xl">{`Submit Your Feedback for ${station?.name}`}</h1>
             <p className="lightColor">This feedback is the cornerstone upon which we build a safer, more responsive, and community-centric policing system</p>
           </div>
           {/* <h1 className="">{station?.name}</h1> */}

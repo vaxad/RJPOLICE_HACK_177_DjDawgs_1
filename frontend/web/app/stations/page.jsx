@@ -55,7 +55,7 @@ export default function Stations() {
 
     // Convert array of objects to array of arrays
     let heatmapData = heatmap.map(obj => keys.map(key => obj[key]));
-    console.log(heatmapData)
+    // console.log(heatmapData)
     try{
     var heat = L.heatLayer(heatmapData, {
       minOpacity: 0.3,
@@ -119,16 +119,16 @@ export default function Stations() {
       setshowstations(filteredStations)
       const heatmapres = (await axios.get("/api/heatmap")).data
       setheatmap(heatmapres.heatmapData)
-      console.log(heatmapres.heatmapData)
+      // console.log(heatmapres.heatmapData)
       const resp2 = (await axios.post("https://rakshakrita-v2.onrender.com/heatmap/")).data
-      console.log(resp2)
+      // console.log(resp2)
       // setheatmap(JSON.parse(resp2.heatmapData))
       const arr =[]
       //.log((JSON.parse(resp2.heatmapData)).length)
       for(const el of JSON.parse(resp2.heatmapData)){
         const element = []
         const res = stns.find(stn=>stn._id.$oid===el.stationId)
-        console.log(res)
+        // console.log(res)
         if(res){
         element.push(parseFloat(res.latitude))
         element.push(parseFloat(res.longitude))
