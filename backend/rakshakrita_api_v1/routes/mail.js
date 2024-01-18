@@ -20,7 +20,7 @@ async function sendMail(recipientEmail, pdfBase64) {
   const mailOptions = {
     from: 'testvaxad@gmail.com',
     to: recipientEmail,
-    subject: 'Report regading the performance of Police Stations in Gujarat',
+    subject: 'Report regading the performance of Police Stations in Rajasthan',
     text: 'This mail is auto-generated every month by RakshakRita to keep you updated! You can access more insights and atual feedbacks by using our mobile app.',
     attachments: [
       {
