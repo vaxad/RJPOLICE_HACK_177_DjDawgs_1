@@ -37,10 +37,11 @@
 5. Users can view the **performance** of their nearby police stations.
 6. **Live heatmaps** showing the distribution of negative feedbacks is also available.
 
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/22bf0e27-92a5-4858-8177-4025d9e63e1a)
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/5a382984-0e79-415d-8cbf-2cea42ba5fe8)
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/9407d98d-ed84-4bc4-ad39-eef0880fa105)
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/34e45703-3b94-4a60-919c-5d139ab4f50b)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/87d1049a-14f7-4e37-929f-6862242d09c3)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/a2ad3e1c-2c7b-4b63-92bd-dc63fa9fe351)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/5db644b3-651d-4e44-9d25-406dd6b16b1a)
+![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/c56dbaac-7b8c-493c-b174-a8c51c3b0538)
+
 
 
 ## Mobile App
@@ -50,19 +51,20 @@
 3. Display various graphs and charts representing **analysis of feedbacks** for each police station.
 4. Provision for editing the **customizable form** questions.
 
-![Untitled design (22)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/c0644243-de98-42cf-89e8-36acace60145)
-![Untitled design (23)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/c9ed19e0-ff84-448b-9b27-4fbae7fbd89a)
+![Untitled design](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/3a38bcbd-d940-4efb-bd71-a4f11f7ebdef)
+![Untitled design (1)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/01673ca3-a8ef-42ec-baae-6cd8bafa0c70)
+![Untitled design (2)](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/058b3ac3-46e7-461f-9ec1-52b910790037)
 
 
 ## ML Models
 
-1. **[Translation model](https://siddhantuniyal-rakshak-rit-translation.hf.space/--replicas/8fzlk/)** to translate any language into any other language (Hindi:'hi', English:'en', Gujarati:'gu' and so on).
-2. **[Sentiment Analysis model](https://shubhamjaiswar-rakshakrit.hf.space/--replicas/56uen/)** to detect whether feedback is negative or positive.
-3. **[Zero-Shot Classification](https://siddhantuniyal-rakshak-rit-zero-shot.hf.space/--replicas/siyjo/)** to identify the issues in negative feedbacks.
+1. **[Translation+Spam+Sentiment+Issue-Classification Model](https://huggingface.co/spaces/Tirath5504/geminiSentiment)** to incorporate Translation, Spam Detection, Sentiment Analysis, and Issue Classification models 
+2. **[Chatbot Model](https://huggingface.co/spaces/Tirath5504/Gemini_Chatbot)** enhance user experience, provide quick assistance, and streamline the feedback collection process.
+3. **[Personalised-SMS Model](https://huggingface.co/spaces/Tirath5504/gemini_customized_sms)** enhance communication and engagement with the community.
 
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/109005b2-59ea-44b5-8b5b-0d653c12b72c)
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/42060628-97f7-44b0-81ab-62992b59ba05)
-![image](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/306d4f6a-66b0-420a-8185-cc3eee9f25a5)
+![Gemini Chatbot - a Hugging Face Space by Tirath5504 - Google Chrome 18-01-2024 09_50_09](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/15841429-d030-4e70-b564-af45e5015925)
+![Gemini Chatbot - a Hugging Face Space by Tirath5504 - Google Chrome 18-01-2024 09_49_31](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/e293a8a3-0783-4787-94ec-3c457078d78e)
+![Gemini Chatbot - a Hugging Face Space by Tirath5504 - Google Chrome 18-01-2024 09_50_31](https://github.com/vaxad/RJPOLICE_HACK_177_DjDawgs_1/assets/126230095/bdc13e02-e4c8-441b-a2c1-6ae38d8ff86d)
 
 
 ## Other Features
