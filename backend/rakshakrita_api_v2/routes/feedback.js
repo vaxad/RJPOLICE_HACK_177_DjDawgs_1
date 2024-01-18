@@ -46,7 +46,7 @@ router.post('/', async (req, res) => {
             const issue = result.issue
             const score = Math.abs(parseFloat(result.result))
             const department = result.department
-            const feedback = await Feedback.create({ description, issue, attachment, id, stationId, score, type, createdAt: Date.now(), department })
+            const feedback = await Feedback.create({ description, issue, attachment, id, stationId, score, type, createdAt: Date.now(), department, questionaire })
             console.log(feedback);
             res.json({ success: true, feedback: feedback })
         } else {
