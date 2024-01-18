@@ -18,7 +18,7 @@ export async function POST(req, res) {
         if (ctr) {
             return NextResponse.json({ message: "you can only give one feedback for one police station per day" })
         } else {
-            const feedback = await Feedback.create({ description: bodyObject.description, issue: bodyObject.issue, attatchment: bodyObject.attatchment, id: bodyObject.id, stationId: bodyObject.stationId, type: bodyObject.type, createdAt: Date.now(), department: bodyObject.department })
+            const feedback = await Feedback.create({ description: bodyObject.description, issue: bodyObject.issue, attatchment: bodyObject.attatchment, id: bodyObject.id, stationId: bodyObject.stationId, type: bodyObject.type, createdAt: Date.now(), department: bodyObject.department, questionaire: bodyObject.questionaire })
             return NextResponse.json({ feedback: feedback })
         }
     } catch (err) {
