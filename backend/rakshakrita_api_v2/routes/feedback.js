@@ -38,7 +38,7 @@ router.post('/', async (req, res) => {
     const { description, questionaire, stationId, id, attachment, from } = req.body
     console.log(req.body)
     try {
-        if (!description || !questionaire) {
+        if (description || questionaire) {
             const flaskapi = await axios.post("https://rakshakrita-flaskv2.onrender.com/model", { desc: description ? description : "No description provided", ques: questionaire ? questionaire : "" })
             const result = flaskapi.data
             console.log(result)
