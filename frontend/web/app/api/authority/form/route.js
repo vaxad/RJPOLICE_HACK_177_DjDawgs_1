@@ -14,7 +14,7 @@ export async function POST(req){
         const bodyObject = await req.json()
         const oldAuthority = await Authorities.findById(obj.authorityId)
         console.log(oldAuthority)
-        if(!oldAuthority || !(oldAuthority.role==="admin"||oldAuthority.role==="superadmin")){
+        if(!oldAuthority || !(oldAuthority.role.toLowerCase().includes("admin"))){
         return NextResponse.json({message:"access denied"})
         }else{
             const oldForm = await Forms.findOne({stationId:bodyObject.stationId})
